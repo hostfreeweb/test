@@ -111,7 +111,7 @@
                                                 
                             
                                                 <div class="wrap-input100 validate-input">
-                                                    <input class="input100" type="text" name="Pan_No" placeholder="Enter PAN Card No." maxlength="35" required>
+                                                    <input class="input100" type="text" name="Pan_No" placeholder="Enter PAN Card No."maxlength="10" pattern="[aA-aZ]{5,}[0-9]{4,}[aA-aZ]{1,}" title="Valid PAN Format Is:ABCDE1234A" required="">
                                                   
                                                 </div><br>
                                                 <div class="wrap-input100 validate-input">
